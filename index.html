@@ -6,6 +6,7 @@ winter"
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwindcss+DaisyUI -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
       rel="stylesheet"
@@ -17,20 +18,72 @@ winter"
       rel="stylesheet"
       type="text/css"
     />
-    <title>Pay-YOO Web</title>
-    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
-    <style type="text/tailwindcss">
-      @theme {
-        --color-clifford: #da373d;
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- GoogleFonts Outfit Link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .outfit {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
       }
     </style>
+
+    <title>Pay-YOO Web</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
   </head>
-  <body>
-    <h1 class="text-3xl text-center py-10 font-bold underline text-clifford">
-      Hello world!
-    </h1>
-    <div class="text-center">
-      <button class="btn btn-soft btn-error">Click me</button>
+  <body class="outfit min-h-screen max-w-md bg-base-200 mx-auto">
+    <div
+      class="logo w-[200px] mx-auto pt-34 transition-all duration-300 ease-out hover:-translate-y-0.5 focus:outline-none"
+    >
+      <img src="assets/Logo-full.png" alt="" />
+    </div>
+
+    <div class="form pt-8">
+      <div
+        class="card bg-base-100 w-full max-w-sm shrink-0 shadow-sm mx-auto rounded-[24px]"
+      >
+        <div class="card-body">
+          <fieldset class="fieldset py-5">
+            <label class="label font-medium text-black text-[16px] py-2"
+              >Mobile Number</label
+            >
+            <input
+              type="email"
+              class="input rounded-[32px] w-full border-none shadow-sm bg-slate-100 transition-all duration-300 ease-out hover:-translate-y-0.5 focus:outline-none"
+              placeholder="Enter your number"
+            />
+            <label class="label font-medium text-black text-[16px] py-3"
+              >4 Digit Pin</label
+            >
+            <input
+              type="password"
+              class="input rounded-[32px] w-full border-none shadow-sm bg-slate-100 transition-all duration-300 ease-out hover:-translate-y-0.5 focus:outline-none"
+              placeholder="Enter 4 Digit Pin"
+            />
+
+            <button
+              class="mt-4 w-full py-3 rounded-full bg-gradient-to-r from-[#4F46E5] to-[#7C3AED] text-white font-semibold tracking-wide shadow-lg shadow-purple-500/30 hover:shadow-2xl hover:shadow-purple-500/40 hover:from-[#5B54F0] hover:to-[#8B5CF6] active:scale-95 transition-all duration-300 ease-out hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2"
+            >
+              Login
+            </button>
+          </fieldset>
+        </div>
+      </div>
     </div>
   </body>
 </html>
