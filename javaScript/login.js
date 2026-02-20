@@ -15,6 +15,7 @@ document.getElementById("login-btn").addEventListener("click", function (e) {
   if (contactNumber == "01234567890" && pinNumber == "1234") {
     //3.1 - if its true>>> Alert > Homepage :
     alert("Login succesfully");
+    window.location.assign("/home.html")
   } else {
     //3.2 - if its FAlse>>> Alert > return to login page.. :
     alert("Login Failed! Please try again");
