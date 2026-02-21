@@ -1,12 +1,116 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homepage</title>
-  <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
-</head>
-<body>
-  <h1>This is home page</h1>
-</body>
+<!doctype html>
+<html
+  data-theme="
+winter"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwindcss+DaisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- GoogleFonts Outfit Link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .outfit {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+      }
+    </style>
+
+    <title>Pay-YOO | Homepage</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+  </head>
+
+
+
+  <body class="outfit min-h-screen max-w-md mx-auto">
+    
+    <header class="border-b-2 border-gray-300">
+      <section class="w-11/12 mx-auto py-3 flex justify-between items-center">
+        <div class="left flex gap-1">
+          <div class="logo w-[60px]">
+            <img src="./assets/logo.png" alt="">
+          </div>
+          <div class="balance-info">
+            <h2 class="text-xl font-bold">$ <span id="balance">45000</span></h2>
+            <p class="text-[#4e4d4d]/50 text-sm">Available Balance</p>
+          </div>
+        </div>
+        <div class="right">
+          <a href="/index.html" class="btn btn-soft"><i class="fa-solid fa-arrow-right-from-bracket rotate-180 opacity-70"></i><span class="text-[#4e4d4d]">Log-out</span></a>
+        </div>
+      </section>
+    </header>
+
+
+    <section class="w-11/12 mx-auto py-10">
+      <h2 class="font-bold text-2xl">Welcome to Pay<span class="text-[#7460FF]">oo</span></h2>
+        <p class="text-[#4e4d4d]/50 text-sm pt-4">Enjoy easy and convenient financial services with us. Cashout charge is low and </p>
+
+
+        <div class="buttons grid grid-cols-3 gap-4 pt-6">
+           
+          <button class="btn flex flex-col h-full py-5 rounded-xl">
+            <img src="assets/opt-1.png" alt="">
+            <p class="text-sm text-black/50">Add Money</p>
+          </button>
+
+          <button class="btn flex flex-col h-full py-5 rounded-xl">
+            <img src="assets/opt-2.png" alt="">
+            <p class="text-sm text-black/50">Cashout</p>
+          </button>
+
+          <button class="btn flex flex-col h-full py-5 rounded-xl">
+            <img src="assets/opt-3.png" alt="">
+            <p class="text-sm text-black/50">Transfer Money</p>
+          </button>
+
+          <button class="btn flex flex-col h-full py-5 rounded-xl">
+            <img src="assets/opt-4.png" alt="">
+            <p class="text-sm text-black/50">Get Bonus</p>
+          </button>
+
+          <button class="btn flex flex-col h-full py-5 rounded-xl">
+            <img src="assets/opt-5.png" alt="">
+            <p class="text-sm text-black/50">Pay Bill</p>
+          </button>
+
+          <button class="btn flex flex-col h-full py-5 rounded-xl">
+            <img src="assets/opt-6.png" alt="">
+            <p class="text-sm text-black/50">Transactions</p>
+          </button>
+          
+         
+        </div>
+    </section>
+
+
+
+  </body>
 </html>
