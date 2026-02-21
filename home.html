@@ -47,15 +47,14 @@ winter"
     <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
   </head>
 
-
-
   <body class="outfit min-h-screen max-w-md mx-auto">
-    
-    <header class="border-b-2 border-gray-300">
+    <header class="border-b-2 border-gray-300 sticky top-0 bg-base-200">
       <section class="w-11/12 mx-auto py-3 flex justify-between items-center">
-        <div class="left flex gap-1 transition-all duration-300 ease-out hover:-translate-y-0.5">
+        <div
+          class="left flex gap-1 transition-all duration-300 ease-out hover:-translate-y-0.5"
+        >
           <div class="logo w-[60px]">
-            <img src="./assets/logo.png" alt="">
+            <img src="./assets/logo.png" alt="" />
           </div>
           <div class="balance-info">
             <h2 class="text-xl font-bold">$ <span id="balance">45000</span></h2>
@@ -63,60 +62,138 @@ winter"
           </div>
         </div>
         <div class="right">
-          <a href="/index.html" class="btn btn-primary btn-soft rounded-full bg-gradient-to-r from-[#4F46E5] to-[#7C3AED] text-white font-semibold tracking-wide shadow-lg shadow-purple-500/30 hover:shadow-2xl hover:shadow-purple-500/40 hover:from-[#5B54F0] hover:to-[#8B5CF6] active:scale-95 transition-all duration-300 ease-out hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2"><i class="fa-solid fa-arrow-right-from-bracket rotate-180 opacity-70"></i><span>Log-out</span></a>
+          <a
+            href="/index.html"
+            class="btn btn-primary btn-soft rounded-full bg-gradient-to-r from-[#4F46E5] to-[#7C3AED] text-white font-semibold tracking-wide shadow-lg shadow-purple-500/30 hover:shadow-2xl hover:shadow-purple-500/40 hover:from-[#5B54F0] hover:to-[#8B5CF6] active:scale-95 transition-all duration-300 ease-out hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2"
+            ><i
+              class="fa-solid fa-arrow-right-from-bracket rotate-180 opacity-70"
+            ></i
+            ><span>Log-out</span></a
+          >
         </div>
       </section>
     </header>
 
-
     <section class="w-11/12 mx-auto py-10">
-      <h2 class="font-bold text-2xl">Welcome to Pay<span class="text-[#7460FF]">oo</span></h2>
-        <p class="text-[#4e4d4d]/50 text-sm pt-4">Enjoy easy and convenient financial services with us. Cashout charge is low and </p>
+      <h2 class="font-bold text-2xl">
+        Welcome to Pay<span class="text-[#7460FF]">oo</span>
+      </h2>
+      <p class="text-[#4e4d4d]/50 text-sm pt-4">
+        Enjoy easy and convenient financial services with us. Cashout charge is
+        low and
+      </p>
 
+      <div class="buttons grid grid-cols-3 gap-4 pt-6">
+        <button
+          class="btn flex flex-col h-full py-5 rounded-xl btn-primary btn-soft transition-all duration-300 ease-out hover:-translate-y-0.5"
+        >
+          <img src="assets/opt-1.png" alt="" />
+          <p class="text-sm">Add Money</p>
+        </button>
 
-        <div class="buttons grid grid-cols-3 gap-4 pt-6">
-           
-          <button class="btn flex flex-col h-full py-5 rounded-xl btn-primary btn-soft transition-all duration-300 ease-out hover:-translate-y-0.5">
-            <img src="assets/opt-1.png" alt="">
-            <p class="text-sm ">Add Money</p>
-          </button>
+        <button
+          class="btn flex flex-col h-full py-5 rounded-xl btn-primary btn-soft transition-all duration-300 ease-out hover:-translate-y-0.5"
+        >
+          <img src="assets/opt-2.png" alt="" />
+          <p class="text-sm">Cashout</p>
+        </button>
 
-          <button class="btn flex flex-col h-full py-5 rounded-xl btn-primary btn-soft transition-all duration-300 ease-out hover:-translate-y-0.5">
-            <img src="assets/opt-2.png" alt="">
-            <p class="text-sm ">Cashout</p>
-          </button>
+        <button
+          class="btn flex flex-col h-full py-5 rounded-xl btn-primary btn-soft transition-all duration-300 ease-out hover:-translate-y-0.5"
+        >
+          <img src="assets/opt-3.png" alt="" />
+          <p class="text-sm">Transfer Money</p>
+        </button>
 
-          <button class="btn flex flex-col h-full py-5 rounded-xl btn-primary btn-soft transition-all duration-300 ease-out hover:-translate-y-0.5">
-            <img src="assets/opt-3.png" alt="">
-            <p class="text-sm ">Transfer Money</p>
-          </button>
+        <button
+          class="btn flex flex-col h-full py-5 rounded-xl btn-primary btn-soft"
+        >
+          <img src="assets/opt-4.png" alt="" />
+          <p class="text-sm">Get Bonus</p>
+        </button>
 
-          <button class="btn flex flex-col h-full py-5 rounded-xl btn-primary btn-soft">
-            <img src="assets/opt-4.png" alt="">
-            <p class="text-sm ">Get Bonus</p>
-          </button>
+        <button
+          class="btn flex flex-col h-full py-5 rounded-xl btn-primary btn-soft transition-all duration-300 ease-out hover:-translate-y-0.5"
+        >
+          <img src="assets/opt-5.png" alt="" />
+          <p class="text-sm">Pay Bill</p>
+        </button>
 
-          <button class="btn flex flex-col h-full py-5 rounded-xl btn-primary btn-soft transition-all duration-300 ease-out hover:-translate-y-0.5">
-            <img src="assets/opt-5.png" alt="">
-            <p class="text-sm ">Pay Bill</p>
-          </button>
-
-          <button class="btn flex flex-col h-full py-5 rounded-xl btn-primary btn-soft transition-all duration-300 ease-out hover:-translate-y-0.5">
-            <img src="assets/opt-6.png" alt="">
-            <p class="text-sm ">Transactions</p>
-          </button>
-          
-         
-        </div>
+        <button
+          class="btn flex flex-col h-full py-5 rounded-xl btn-primary btn-soft transition-all duration-300 ease-out hover:-translate-y-0.5"
+        >
+          <img src="assets/opt-6.png" alt="" />
+          <p class="text-sm">Transactions</p>
+        </button>
+      </div>
     </section>
 
+    <section id="add-money" class="w-11/12 mx-auto py-6">
+      <h2 class="font-bold text-xl mb-5">Add-money</h2>
 
+      <div
+        class="card bg-base-100 w-full shrink-0 shadow-sm mx-auto rounded-[24px]"
+      >
+        <div class="card-body">
+          <fieldset class="fieldset py-5">
+            <label class="label font-medium text-black text-[16px] py-2"
+              >Select A Bank</label
+            >
+
+            <select id="add-money-bank" class="input rounded-[32px] w-full border-none shadow-sm bg-slate-100 transition-all duration-300 ease-out hover:-translate-y-0.5 focus:outline-none select">
+              <option disabled selected>Pick a Bank</option>
+              <option value="DBBL">DBBL</option>
+              <option value="IBBL">IBBL</option>
+              <option value="City">City bank</option>
+            </select>
+
+           
+            <label class="label font-medium text-black text-[16px] py-3"
+              >Bank Account Number</label
+            >
+             <input
+              id="add-money-number"
+              type="number"
+              class="input rounded-[32px] w-full border-none shadow-sm bg-slate-100 transition-all duration-300 ease-out hover:-translate-y-0.5 focus:outline-none"
+              placeholder="Enter 11 digit number"
+            />
+
+            <label class="label font-medium text-black text-[16px] py-3"
+              >Amount to Add</label
+            >
+            <input
+              id="add-money-amount"
+              type="number"
+              class="input rounded-[32px] w-full border-none shadow-sm bg-slate-100 transition-all duration-300 ease-out hover:-translate-y-0.5 focus:outline-none"
+              placeholder="Enter amount to add"
+            />
+
+            <label class="label font-medium text-black text-[16px] py-3"
+              >Pin Number</label
+            >
+            <input
+              id="add-money-pin"
+              type="password"
+              class="input rounded-[32px] w-full border-none shadow-sm bg-slate-100 transition-all duration-300 ease-out hover:-translate-y-0.5 focus:outline-none"
+              placeholder="Enter 4 digit pin number"
+            />
+
+            <button
+              id="add-money-btn"
+              class="mt-4 w-full py-3 rounded-full bg-gradient-to-r from-[#4F46E5] to-[#7C3AED] text-white font-semibold tracking-wide shadow-lg shadow-purple-500/30 hover:shadow-2xl hover:shadow-purple-500/40 hover:from-[#5B54F0] hover:to-[#8B5CF6] active:scale-95 transition-all duration-300 ease-out hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2"
+            >
+              Add Money
+            </button>
+          </fieldset>
+        </div>
+      </div>
+    </section>
 
     <section id="cashout" class="w-11/12 mx-auto py-6">
       <h2 class="font-bold text-xl mb-5">Cashout</h2>
 
       <div
-        class="card bg-base-100 w-full  shrink-0 shadow-sm mx-auto rounded-[24px]"
+        class="card bg-base-100 w-full shrink-0 shadow-sm mx-auto rounded-[24px]"
       >
         <div class="card-body">
           <fieldset class="fieldset py-5">
@@ -127,7 +204,6 @@ winter"
               id="cashout-number"
               type="number"
               class="input rounded-[32px] w-full border-none shadow-sm bg-slate-100 transition-all duration-300 ease-out hover:-translate-y-0.5 focus:outline-none"
-              
               placeholder="Enter 11 digit number"
             />
             <label class="label font-medium text-black text-[16px] py-3"
@@ -137,7 +213,6 @@ winter"
               id="cashout-amount"
               type="number"
               class="input rounded-[32px] w-full border-none shadow-sm bg-slate-100 transition-all duration-300 ease-out hover:-translate-y-0.5 focus:outline-none"
-            
               placeholder="Enter amount to withdraw"
             />
 
@@ -148,7 +223,6 @@ winter"
               id="cashout-pin"
               type="password"
               class="input rounded-[32px] w-full border-none shadow-sm bg-slate-100 transition-all duration-300 ease-out hover:-translate-y-0.5 focus:outline-none"
-             
               placeholder="Enter 4 digit pin number"
             />
 
@@ -163,7 +237,7 @@ winter"
       </div>
     </section>
 
-
+    <script src="javaScript/machine.js"></script>
     <script src="javaScript/cashout.js"></script>
   </body>
 </html>
